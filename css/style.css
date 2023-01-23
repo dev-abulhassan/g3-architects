@@ -35,11 +35,12 @@ a {
 
 p {
     font-weight: 400;
-    color: var(--text);
+    color: var(--secondary-text);
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     font-family: 'Mulish', sans-serif;
+
 }
 
 
@@ -255,17 +256,19 @@ button {
     border-radius: 5px;
     border: 2px solid var(--btn);
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    background-color: #343434;
 }
 
 .facts-details:hover {
-    box-shadow: inset 100px 0 0 0 #54b3d6;
+    box-shadow: inset 187px 0 0 0 #FF900E;
     color: white;
 }
 
 .facts-details h2,
 p {
-    color: var(--secondary-text);
+    color: #ffffff;
 }
+
 .sponspors {
     width: 1140px;
     margin: auto;
